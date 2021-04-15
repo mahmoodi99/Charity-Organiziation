@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\New folder\\Polvina\\NeedyAccounts\\NeedyAccounts.csproj": {}
+    "C:\\Users\\zahra\\Downloads\\Polvina\\NeedyAccounts\\NeedyAccounts.csproj": {}
   },
   "projects": {
-    "F:\\New folder\\Polvina\\CommonBaseData\\CommonBaseData.csproj": {
+    "C:\\Users\\zahra\\Downloads\\Polvina\\CommonBaseData\\CommonBaseData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\New folder\\Polvina\\CommonBaseData\\CommonBaseData.csproj",
+        "projectUniqueName": "C:\\Users\\zahra\\Downloads\\Polvina\\CommonBaseData\\CommonBaseData.csproj",
         "projectName": "CommonBaseData",
-        "projectPath": "F:\\New folder\\Polvina\\CommonBaseData\\CommonBaseData.csproj",
-        "packagesPath": "C:\\Users\\TMFst\\.nuget\\packages\\",
-        "outputPath": "F:\\New folder\\Polvina\\CommonBaseData\\obj\\",
+        "projectPath": "C:\\Users\\zahra\\Downloads\\Polvina\\CommonBaseData\\CommonBaseData.csproj",
+        "packagesPath": "C:\\Users\\zahra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zahra\\Downloads\\Polvina\\CommonBaseData\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\TMFst\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zahra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,9 +26,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "F:\\New folder\\Polvina\\Polvina\\CommonBaseType.csproj": {
-                "projectPath": "F:\\New folder\\Polvina\\Polvina\\CommonBaseType.csproj"
+              "C:\\Users\\zahra\\Downloads\\Polvina\\Polvina\\CommonBaseType.csproj": {
+                "projectPath": "C:\\Users\\zahra\\Downloads\\Polvina\\Polvina\\CommonBaseType.csproj"
               }
             }
           }
@@ -41,6 +42,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -83,21 +85,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\New folder\\Polvina\\NeedyAccounts\\NeedyAccounts.csproj": {
+    "C:\\Users\\zahra\\Downloads\\Polvina\\NeedyAccounts\\NeedyAccounts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\New folder\\Polvina\\NeedyAccounts\\NeedyAccounts.csproj",
+        "projectUniqueName": "C:\\Users\\zahra\\Downloads\\Polvina\\NeedyAccounts\\NeedyAccounts.csproj",
         "projectName": "NeedyAccounts",
-        "projectPath": "F:\\New folder\\Polvina\\NeedyAccounts\\NeedyAccounts.csproj",
-        "packagesPath": "C:\\Users\\TMFst\\.nuget\\packages\\",
-        "outputPath": "F:\\New folder\\Polvina\\NeedyAccounts\\obj\\",
+        "projectPath": "C:\\Users\\zahra\\Downloads\\Polvina\\NeedyAccounts\\NeedyAccounts.csproj",
+        "packagesPath": "C:\\Users\\zahra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zahra\\Downloads\\Polvina\\NeedyAccounts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\TMFst\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zahra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -109,12 +111,13 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "F:\\New folder\\Polvina\\CommonBaseData\\CommonBaseData.csproj": {
-                "projectPath": "F:\\New folder\\Polvina\\CommonBaseData\\CommonBaseData.csproj"
+              "C:\\Users\\zahra\\Downloads\\Polvina\\CommonBaseData\\CommonBaseData.csproj": {
+                "projectPath": "C:\\Users\\zahra\\Downloads\\Polvina\\CommonBaseData\\CommonBaseData.csproj"
               },
-              "F:\\New folder\\Polvina\\tblPersonal\\Personal.csproj": {
-                "projectPath": "F:\\New folder\\Polvina\\tblPersonal\\Personal.csproj"
+              "C:\\Users\\zahra\\Downloads\\Polvina\\tblPersonal\\Personal.csproj": {
+                "projectPath": "C:\\Users\\zahra\\Downloads\\Polvina\\tblPersonal\\Personal.csproj"
               }
             }
           }
@@ -127,6 +130,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -165,21 +169,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\New folder\\Polvina\\Polvina\\CommonBaseType.csproj": {
+    "C:\\Users\\zahra\\Downloads\\Polvina\\Polvina\\CommonBaseType.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\New folder\\Polvina\\Polvina\\CommonBaseType.csproj",
+        "projectUniqueName": "C:\\Users\\zahra\\Downloads\\Polvina\\Polvina\\CommonBaseType.csproj",
         "projectName": "CommonBaseType",
-        "projectPath": "F:\\New folder\\Polvina\\Polvina\\CommonBaseType.csproj",
-        "packagesPath": "C:\\Users\\TMFst\\.nuget\\packages\\",
-        "outputPath": "F:\\New folder\\Polvina\\Polvina\\obj\\",
+        "projectPath": "C:\\Users\\zahra\\Downloads\\Polvina\\Polvina\\CommonBaseType.csproj",
+        "packagesPath": "C:\\Users\\zahra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zahra\\Downloads\\Polvina\\Polvina\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\TMFst\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zahra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -191,6 +195,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -202,6 +207,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -258,21 +264,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\New folder\\Polvina\\tblPersonal\\Personal.csproj": {
+    "C:\\Users\\zahra\\Downloads\\Polvina\\tblPersonal\\Personal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\New folder\\Polvina\\tblPersonal\\Personal.csproj",
+        "projectUniqueName": "C:\\Users\\zahra\\Downloads\\Polvina\\tblPersonal\\Personal.csproj",
         "projectName": "Personal",
-        "projectPath": "F:\\New folder\\Polvina\\tblPersonal\\Personal.csproj",
-        "packagesPath": "C:\\Users\\TMFst\\.nuget\\packages\\",
-        "outputPath": "F:\\New folder\\Polvina\\tblPersonal\\obj\\",
+        "projectPath": "C:\\Users\\zahra\\Downloads\\Polvina\\tblPersonal\\Personal.csproj",
+        "packagesPath": "C:\\Users\\zahra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zahra\\Downloads\\Polvina\\tblPersonal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\TMFst\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zahra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -284,6 +290,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -295,6 +302,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -339,7 +347,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

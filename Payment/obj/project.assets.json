@@ -7966,19 +7966,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\TMFst\\.nuget\\packages\\": {}
+    "C:\\Users\\zahra\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\New folder\\Polvina\\Payment\\Payment.csproj",
+      "projectUniqueName": "C:\\Users\\zahra\\Downloads\\Polvina\\Payment\\Payment.csproj",
       "projectName": "Payment",
-      "projectPath": "F:\\New folder\\Polvina\\Payment\\Payment.csproj",
-      "packagesPath": "C:\\Users\\TMFst\\.nuget\\packages\\",
-      "outputPath": "F:\\New folder\\Polvina\\Payment\\obj\\",
+      "projectPath": "C:\\Users\\zahra\\Downloads\\Polvina\\Payment\\Payment.csproj",
+      "packagesPath": "C:\\Users\\zahra\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\zahra\\Downloads\\Polvina\\Payment\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\TMFst\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\zahra\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7990,15 +7990,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "F:\\New folder\\Polvina\\CashAssistanceDetail\\CashAssistanceDetail.csproj": {
-              "projectPath": "F:\\New folder\\Polvina\\CashAssistanceDetail\\CashAssistanceDetail.csproj"
+            "C:\\Users\\zahra\\Downloads\\Polvina\\CashAssistanceDetail\\CashAssistanceDetail.csproj": {
+              "projectPath": "C:\\Users\\zahra\\Downloads\\Polvina\\CashAssistanceDetail\\CashAssistanceDetail.csproj"
             },
-            "F:\\New folder\\Polvina\\CharityAccounts\\CharityAccounts.csproj": {
-              "projectPath": "F:\\New folder\\Polvina\\CharityAccounts\\CharityAccounts.csproj"
+            "C:\\Users\\zahra\\Downloads\\Polvina\\CharityAccounts\\CharityAccounts.csproj": {
+              "projectPath": "C:\\Users\\zahra\\Downloads\\Polvina\\CharityAccounts\\CharityAccounts.csproj"
             },
-            "F:\\New folder\\Polvina\\tblPersonal\\Personal.csproj": {
-              "projectPath": "F:\\New folder\\Polvina\\tblPersonal\\Personal.csproj"
+            "C:\\Users\\zahra\\Downloads\\Polvina\\tblPersonal\\Personal.csproj": {
+              "projectPath": "C:\\Users\\zahra\\Downloads\\Polvina\\tblPersonal\\Personal.csproj"
             }
           }
         }
@@ -8011,6 +8012,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
@@ -8055,7 +8057,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

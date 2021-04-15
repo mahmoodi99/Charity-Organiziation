@@ -5944,19 +5944,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\TMFst\\.nuget\\packages\\": {}
+    "C:\\Users\\zahra\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\New folder\\Polvina\\CashAssistanceDetail\\CashAssistanceDetail.csproj",
+      "projectUniqueName": "C:\\Users\\zahra\\Downloads\\Polvina\\CashAssistanceDetail\\CashAssistanceDetail.csproj",
       "projectName": "CashAssistanceDetail",
-      "projectPath": "F:\\New folder\\Polvina\\CashAssistanceDetail\\CashAssistanceDetail.csproj",
-      "packagesPath": "C:\\Users\\TMFst\\.nuget\\packages\\",
-      "outputPath": "F:\\New folder\\Polvina\\CashAssistanceDetail\\obj\\",
+      "projectPath": "C:\\Users\\zahra\\Downloads\\Polvina\\CashAssistanceDetail\\CashAssistanceDetail.csproj",
+      "packagesPath": "C:\\Users\\zahra\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\zahra\\Downloads\\Polvina\\CashAssistanceDetail\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\TMFst\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\zahra\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5968,12 +5968,13 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "F:\\New folder\\Polvina\\AssignNeedyToPlans\\AssignNeedyToPlans.csproj": {
-              "projectPath": "F:\\New folder\\Polvina\\AssignNeedyToPlans\\AssignNeedyToPlans.csproj"
+            "C:\\Users\\zahra\\Downloads\\Polvina\\AssignNeedyToPlans\\AssignNeedyToPlans.csproj": {
+              "projectPath": "C:\\Users\\zahra\\Downloads\\Polvina\\AssignNeedyToPlans\\AssignNeedyToPlans.csproj"
             },
-            "F:\\New folder\\Polvina\\Plans\\Plans.csproj": {
-              "projectPath": "F:\\New folder\\Polvina\\Plans\\Plans.csproj"
+            "C:\\Users\\zahra\\Downloads\\Polvina\\Plans\\Plans.csproj": {
+              "projectPath": "C:\\Users\\zahra\\Downloads\\Polvina\\Plans\\Plans.csproj"
             }
           }
         }
@@ -5986,6 +5987,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
@@ -6030,7 +6032,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
