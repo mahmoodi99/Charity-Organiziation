@@ -63,9 +63,6 @@ F:\New folder\Polvina\CashAssistanceDetail\obj\Debug\netcoreapp3.1\CashAssistanc
 F:\New folder\Polvina\CashAssistanceDetail\obj\Debug\netcoreapp3.1\CashAssistanceDetail.genruntimeconfig.cache
 C:\Users\zahra\Downloads\Polvina\CashAssistanceDetail\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\zahra\Downloads\Polvina\CashAssistanceDetail\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\zahra\Downloads\Polvina\CashAssistanceDetail\bin\Debug\netcoreapp3.1\Plans.exe
-C:\Users\zahra\Downloads\Polvina\CashAssistanceDetail\bin\Debug\netcoreapp3.1\Personal.exe
-C:\Users\zahra\Downloads\Polvina\CashAssistanceDetail\bin\Debug\netcoreapp3.1\AssignNeedyToPlans.exe
 C:\Users\zahra\Downloads\Polvina\CashAssistanceDetail\bin\Debug\netcoreapp3.1\CashAssistanceDetail.exe
 C:\Users\zahra\Downloads\Polvina\CashAssistanceDetail\bin\Debug\netcoreapp3.1\CashAssistanceDetail.deps.json
 C:\Users\zahra\Downloads\Polvina\CashAssistanceDetail\bin\Debug\netcoreapp3.1\CashAssistanceDetail.runtimeconfig.json
@@ -114,17 +111,10 @@ C:\Users\zahra\Downloads\Polvina\CashAssistanceDetail\bin\Debug\netcoreapp3.1\ru
 C:\Users\zahra\Downloads\Polvina\CashAssistanceDetail\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\zahra\Downloads\Polvina\CashAssistanceDetail\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\zahra\Downloads\Polvina\CashAssistanceDetail\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\zahra\Downloads\Polvina\CashAssistanceDetail\bin\Debug\netcoreapp3.1\AssignNeedyToPlans.dll
-C:\Users\zahra\Downloads\Polvina\CashAssistanceDetail\bin\Debug\netcoreapp3.1\Personal.dll
-C:\Users\zahra\Downloads\Polvina\CashAssistanceDetail\bin\Debug\netcoreapp3.1\Plans.dll
-C:\Users\zahra\Downloads\Polvina\CashAssistanceDetail\bin\Debug\netcoreapp3.1\AssignNeedyToPlans.pdb
-C:\Users\zahra\Downloads\Polvina\CashAssistanceDetail\bin\Debug\netcoreapp3.1\Plans.pdb
-C:\Users\zahra\Downloads\Polvina\CashAssistanceDetail\bin\Debug\netcoreapp3.1\Personal.pdb
 C:\Users\zahra\Downloads\Polvina\CashAssistanceDetail\obj\Debug\netcoreapp3.1\CashAssistanceDetail.csprojAssemblyReference.cache
 C:\Users\zahra\Downloads\Polvina\CashAssistanceDetail\obj\Debug\netcoreapp3.1\CashAssistanceDetail.AssemblyInfoInputs.cache
 C:\Users\zahra\Downloads\Polvina\CashAssistanceDetail\obj\Debug\netcoreapp3.1\CashAssistanceDetail.AssemblyInfo.cs
 C:\Users\zahra\Downloads\Polvina\CashAssistanceDetail\obj\Debug\netcoreapp3.1\CashAssistanceDetail.csproj.CoreCompileInputs.cache
-C:\Users\zahra\Downloads\Polvina\CashAssistanceDetail\obj\Debug\netcoreapp3.1\CashAssistanceDetail.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\zahra\Downloads\Polvina\CashAssistanceDetail\obj\Debug\netcoreapp3.1\CashAssistanceDetail.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\zahra\Downloads\Polvina\CashAssistanceDetail\obj\Debug\netcoreapp3.1\staticwebassets\CashAssistanceDetail.StaticWebAssets.Manifest.cache
 C:\Users\zahra\Downloads\Polvina\CashAssistanceDetail\obj\Debug\netcoreapp3.1\staticwebassets\CashAssistanceDetail.StaticWebAssets.xml

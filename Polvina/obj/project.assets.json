@@ -2306,6 +2306,25 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "CommonBaseData/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.5",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.5",
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.10.8",
+          "NuGet.ProjectModel": "5.9.0"
+        },
+        "compile": {
+          "bin/placeholder/CommonBaseData.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommonBaseData.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -7780,10 +7799,16 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "CommonBaseData/1.0.0": {
+      "type": "project",
+      "path": "../CommonBaseData/CommonBaseData.csproj",
+      "msbuildProject": "../CommonBaseData/CommonBaseData.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "CommonBaseData >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.5",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.5",
@@ -7820,7 +7845,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\zahra\\Downloads\\Polvina\\CommonBaseData\\CommonBaseData.csproj": {
+              "projectPath": "C:\\Users\\zahra\\Downloads\\Polvina\\CommonBaseData\\CommonBaseData.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

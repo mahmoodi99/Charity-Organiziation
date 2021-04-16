@@ -1527,42 +1527,6 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
-      },
-      "Personal/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "5.0.5",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.5",
-          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.10.8"
-        },
-        "compile": {
-          "bin/placeholder/Personal.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Personal.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
-      },
-      "Plans/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "5.0.5",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.5",
-          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.10.8"
-        },
-        "compile": {
-          "bin/placeholder/Plans.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Plans.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
       }
     }
   },
@@ -5895,16 +5859,6 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
-    },
-    "Personal/1.0.0": {
-      "type": "project",
-      "path": "../tblPersonal/Personal.csproj",
-      "msbuildProject": "../tblPersonal/Personal.csproj"
-    },
-    "Plans/1.0.0": {
-      "type": "project",
-      "path": "../Plans/Plans.csproj",
-      "msbuildProject": "../Plans/Plans.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5913,9 +5867,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 5.0.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.5",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.5",
-      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.8",
-      "Personal >= 1.0.0",
-      "Plans >= 1.0.0"
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.8"
     ]
   },
   "packageFolders": {
@@ -5944,14 +5896,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {
-            "C:\\Users\\zahra\\Downloads\\Polvina\\Plans\\Plans.csproj": {
-              "projectPath": "C:\\Users\\zahra\\Downloads\\Polvina\\Plans\\Plans.csproj"
-            },
-            "C:\\Users\\zahra\\Downloads\\Polvina\\tblPersonal\\Personal.csproj": {
-              "projectPath": "C:\\Users\\zahra\\Downloads\\Polvina\\tblPersonal\\Personal.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

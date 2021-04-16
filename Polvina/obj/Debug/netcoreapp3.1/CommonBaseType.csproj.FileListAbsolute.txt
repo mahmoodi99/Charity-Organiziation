@@ -167,6 +167,7 @@ F:\New folder\Polvina\Polvina\bin\Debug\netcoreapp3.1\System.Security.Cryptograp
 F:\New folder\Polvina\Polvina\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
 F:\New folder\Polvina\Polvina\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Cng.dll
 F:\New folder\Polvina\Polvina\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\zahra\Downloads\Polvina\Polvina\bin\Debug\netcoreapp3.1\CommonBaseData.exe
 C:\Users\zahra\Downloads\Polvina\Polvina\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\zahra\Downloads\Polvina\Polvina\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\zahra\Downloads\Polvina\Polvina\bin\Debug\netcoreapp3.1\CommonBaseType.exe
@@ -323,10 +324,13 @@ C:\Users\zahra\Downloads\Polvina\Polvina\bin\Debug\netcoreapp3.1\runtimes\win\li
 C:\Users\zahra\Downloads\Polvina\Polvina\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Cng.dll
 C:\Users\zahra\Downloads\Polvina\Polvina\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\zahra\Downloads\Polvina\Polvina\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\zahra\Downloads\Polvina\Polvina\bin\Debug\netcoreapp3.1\CommonBaseData.dll
+C:\Users\zahra\Downloads\Polvina\Polvina\bin\Debug\netcoreapp3.1\CommonBaseData.pdb
 C:\Users\zahra\Downloads\Polvina\Polvina\obj\Debug\netcoreapp3.1\CommonBaseType.csprojAssemblyReference.cache
 C:\Users\zahra\Downloads\Polvina\Polvina\obj\Debug\netcoreapp3.1\CommonBaseType.AssemblyInfoInputs.cache
 C:\Users\zahra\Downloads\Polvina\Polvina\obj\Debug\netcoreapp3.1\CommonBaseType.AssemblyInfo.cs
 C:\Users\zahra\Downloads\Polvina\Polvina\obj\Debug\netcoreapp3.1\CommonBaseType.csproj.CoreCompileInputs.cache
+C:\Users\zahra\Downloads\Polvina\Polvina\obj\Debug\netcoreapp3.1\CommonBaseType.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\zahra\Downloads\Polvina\Polvina\obj\Debug\netcoreapp3.1\CommonBaseType.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\zahra\Downloads\Polvina\Polvina\obj\Debug\netcoreapp3.1\staticwebassets\CommonBaseType.StaticWebAssets.Manifest.cache
 C:\Users\zahra\Downloads\Polvina\Polvina\obj\Debug\netcoreapp3.1\staticwebassets\CommonBaseType.StaticWebAssets.xml

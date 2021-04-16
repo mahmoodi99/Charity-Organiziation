@@ -17,9 +17,5 @@
     <PackageReference Include="NuGet.ProjectModel" Version="5.9.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Polvina\CommonBaseType.csproj" />
-  </ItemGroup>
-
 
 </Project>
