@@ -82,9 +82,11 @@ namespace CommonBaseData.Entity.Repository
 
 
 
-        public Task<TblCommonBaseData> ws_UpdateBaseValue(TblCommonBaseData TblCommonBaseData)
+        public async  Task<TblCommonBaseData> ws_UpdateBaseValue(TblCommonBaseData TblCommonBaseData)
         {
-            throw new NotImplementedException();
+            _Context.TblCommonBaseData.Update(TblCommonBaseData);
+            await _Context.SaveChangesAsync();
+            return (TblCommonBaseData);
         }
     }
 }
