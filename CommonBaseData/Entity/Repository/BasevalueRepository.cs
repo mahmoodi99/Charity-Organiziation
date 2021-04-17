@@ -1,4 +1,5 @@
 ﻿using CommonBaseData.Model;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,40 +9,78 @@ namespace CommonBaseData.Entity.Repository
 {
     public class BasevalueRepository : IBaseValueRepository
     {
-        public Task<bool> IsExists(int id)
+        private Base_Context _Context;
+        public BasevalueRepository(Base_Context context)
         {
-            throw new NotImplementedException();
+            _Context = context;
         }
 
-        public Task<bool> IsExistscode(string value)
+        public async Task<bool> IsExists(int id)
         {
-            throw new NotImplementedException();
+            return await _Context.TblCommonBaseData.AnyAsync(c => c.CommonBaseDataId == id);
         }
 
-        public Task<TblCommonBaseData> ws_CreateBaseValue(TblCommonBaseData TblCommonBaseData)
+        public async Task<bool> IsExistscode(string value)
         {
-            throw new NotImplementedException();
+            return await _Context.TblCommonBaseData.AnyAsync(c => c.BaseValue == value || c.BaseCode == value);
         }
 
-        public Task<TblCommonBaseData> ws_DeleteBaseValue(int id)
+        public async Task<TblCommonBaseData> ws_CreateBaseValue(TblCommonBaseData TblCommonBaseData)
         {
-            throw new NotImplementedException();
+
+            await _Context.TblCommonBaseData.AddAsync(TblCommonBaseData);
+
+            TblCommonBaseData = new TblCommonBaseData
+            {
+
+                CommonBaseTypeId = TblCommonBaseData.CommonBaseTypeId,
+                BaseValue = TblCommonBaseData.BaseValue,
+                BaseCode = TblCommonBaseData.BaseCode
+            };        
+                
+
+            await _Context.SaveChangesAsync();
+            return TblCommonBaseData;
         }
+
+
+
+
+        public  async Task<TblCommonBaseData> ws_DeleteBaseValue(int id)
+        {
+            var baseData = await _Context.TblCommonBaseData.SingleAsync(t => t.CommonBaseDataId == id);
+            _Context.TblCommonBaseData.Remove(baseData);
+            await _Context.SaveChangesAsync();
+            return (baseData);
+        }
+
+
+
 
         public IEnumerable<TblCommonBaseData> ws_loadBaseValue()
         {
-            throw new NotImplementedException();
+            return _Context.TblCommonBaseData.ToList();
         }
 
-        public Task<TblCommonBaseData> ws_loadBaseValueById(int id)
+
+
+
+        public async Task<TblCommonBaseData> ws_loadBaseValueById(int id)
         {
-            throw new NotImplementedException();
+            return await _Context.TblCommonBaseData.SingleOrDefaultAsync(c => c.CommonBaseDataId == id);
         }
 
-        public Task<TblCommonBaseData> ws_loadBaseValueByTitle(string value)
+
+
+
+        public async Task<TblCommonBaseData> ws_loadBaseValueByTitle(string value)
         {
-            throw new NotImplementedException();
+            var baseData = await _Context.TblCommonBaseData.FirstOrDefaultAsync(p => p.BaseCode.Contains("value") || p.BaseValue.Contains("value"));
+
+            return (baseData);
         }
+
+
 
         public Task<TblCommonBaseData> ws_UpdateBaseValue(TblCommonBaseData TblCommonBaseData)
         {

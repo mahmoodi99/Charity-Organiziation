@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CommonBaseData.Entity.Repository
 {
-    interface IBaseValueRepository
+  public  interface IBaseValueRepository
     {
         Task<TblCommonBaseData> ws_loadBaseValueById(int id);
         //Task<TblCommonBaseType> ws_loadBaseTypeByIdIncloud(int id);
