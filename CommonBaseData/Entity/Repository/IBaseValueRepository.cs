@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace CommonBaseData.Entity.Repository
 {
-  public  interface IBaseValueRepository
+    public interface IBaseValueRepository
     {
         Task<TblCommonBaseData> ws_loadBaseValueById(int id);
         //Task<TblCommonBaseType> ws_loadBaseTypeByIdIncloud(int id);
-        IEnumerable<TblCommonBaseData> ws_loadBaseValue();
+        IEnumerable<TblCommonBaseData> loadBaseValue();
         Task<TblCommonBaseData> ws_loadBaseValueByTitle(string value);
         Task<TblCommonBaseData> ws_CreateBaseValue(TblCommonBaseData TblCommonBaseData);
         Task<TblCommonBaseData> ws_UpdateBaseValue(TblCommonBaseData TblCommonBaseData);

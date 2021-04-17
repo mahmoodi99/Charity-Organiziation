@@ -36,8 +36,8 @@ namespace CommonBaseData.Entity.Repository
                 CommonBaseTypeId = TblCommonBaseData.CommonBaseTypeId,
                 BaseValue = TblCommonBaseData.BaseValue,
                 BaseCode = TblCommonBaseData.BaseCode
-            };        
-                
+            };
+
 
             await _Context.SaveChangesAsync();
             return TblCommonBaseData;
@@ -46,7 +46,7 @@ namespace CommonBaseData.Entity.Repository
 
 
 
-        public  async Task<TblCommonBaseData> ws_DeleteBaseValue(int id)
+        public async Task<TblCommonBaseData> ws_DeleteBaseValue(int id)
         {
             var baseData = await _Context.TblCommonBaseData.SingleAsync(t => t.CommonBaseDataId == id);
             _Context.TblCommonBaseData.Remove(baseData);
@@ -57,7 +57,7 @@ namespace CommonBaseData.Entity.Repository
 
 
 
-        public IEnumerable<TblCommonBaseData> ws_loadBaseValue()
+        public IEnumerable<TblCommonBaseData> loadBaseValue()
         {
             return _Context.TblCommonBaseData.ToList();
         }
@@ -82,7 +82,7 @@ namespace CommonBaseData.Entity.Repository
 
 
 
-        public async  Task<TblCommonBaseData> ws_UpdateBaseValue(TblCommonBaseData TblCommonBaseData)
+        public async Task<TblCommonBaseData> ws_UpdateBaseValue(TblCommonBaseData TblCommonBaseData)
         {
             _Context.TblCommonBaseData.Update(TblCommonBaseData);
             await _Context.SaveChangesAsync();

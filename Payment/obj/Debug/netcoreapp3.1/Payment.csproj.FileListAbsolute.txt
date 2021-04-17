@@ -123,3 +123,4 @@ C:\Users\zahra\Downloads\Polvina\Payment\obj\Debug\netcoreapp3.1\Payment.csproj.
 C:\Users\zahra\Downloads\Polvina\Payment\obj\Debug\netcoreapp3.1\Payment.dll
 C:\Users\zahra\Downloads\Polvina\Payment\obj\Debug\netcoreapp3.1\Payment.pdb
 C:\Users\zahra\Downloads\Polvina\Payment\obj\Debug\netcoreapp3.1\Payment.genruntimeconfig.cache
+C:\Users\zahra\Downloads\Polvina\Payment\obj\Debug\netcoreapp3.1\Payment.csprojAssemblyReference.cache

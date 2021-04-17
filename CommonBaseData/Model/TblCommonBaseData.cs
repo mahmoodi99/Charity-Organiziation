@@ -18,8 +18,5 @@ namespace CommonBaseData.Model
         [StringLength(800)]
         public string BaseValue { get; set; }
         public int? CommonBaseTypeId { get; set; }
-
-
-        public object TblCommonBaseType { get; internal set; }
     }
 }
