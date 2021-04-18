@@ -33,8 +33,8 @@ namespace CommonBaseData.Controllers
         }
 
 
-        // GET api/<BaseValuesController>/5
-        [HttpGet("{id}")]
+        // GET api//BaseValues/ws_loadBaseValue /{id}
+        [HttpGet("[controller]/[action]/{id}")]
         public async Task<IActionResult> ws_loadBaseValue([FromRoute] int id)
         {
             if (!ModelState.IsValid)
@@ -73,17 +73,36 @@ namespace CommonBaseData.Controllers
         }
 
 
-        // POST api/<ValuesController>
+        // POST api/<BaseValuesController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public async Task<IActionResult> ws_CreateBaseValue([FromBody] TblCommonBaseData tblCommonBaseData)
         {
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            await _baseValueRepository.ws_CreateBaseValue(tblCommonBaseData);
+
+            return CreatedAtAction("GetTblCommonBaseData", new { id = tblCommonBaseData.CommonBaseTypeId }, tblCommonBaseData);
         }
+
 
         // PUT api/<ValuesController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public async Task<IActionResult> ws_UpdateBaseValue([FromBody] TblCommonBaseData tblCommonBaseData)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+          
+            await _baseValueRepository.ws_UpdateBaseValue(tblCommonBaseData);
+
+            return NoContent();
         }
+
+
 
         // DELETE api/<ValuesController>/5
         [HttpDelete("{id}")]
